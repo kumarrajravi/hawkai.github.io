@@ -1144,7 +1144,7 @@ var str = "10 lakhs";
 var dailytotal=dailytotalPeople.toString();
 var totalBudget =  str.fontsize(6);
 var totalImpression = dailytotal.fontsize(6)
-var costPerImpression =  (Math.round(100000/dailytotalPeople)).toString();
+var costPerImpression =  (Math.round(1000000/dailytotalPeople)).toString();
 var costPerImp = costPerImpression.fontsize(6)
 document.getElementById("total-budget").insertAdjacentHTML("beforeend", totalBudget);
 document.getElementById("total-impressions").insertAdjacentHTML("beforeend", totalImpression);
